@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify Forgot Password Functionality</description>
+   <name>Login TC 05</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2776dff9-2f58-43f5-8e8e-7209b0751b3b</testCaseGuid>
+</TestCaseEntity>
