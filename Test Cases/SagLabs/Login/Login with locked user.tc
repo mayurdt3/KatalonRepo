@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login with locked user</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a709c6b0-cf5d-4e37-b285-5473591065d7</testCaseGuid>
+</TestCaseEntity>

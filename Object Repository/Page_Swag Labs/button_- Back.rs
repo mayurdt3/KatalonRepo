@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_- Back</name>
+   <tag></tag>
+   <elementGuidId>fe35fbd8-04e6-49e5-9a88-41340a31e4b3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='inventory_item_container']/div/button</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.inventory_details_back_button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>a85eb5e1-83ed-4e04-a9b3-3864ced4f118</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>inventory_details_back_button</value>
+      <webElementGuid>31d616dc-4e38-47e7-aa9b-08c01461725e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>&lt;- Back</value>
+      <webElementGuid>1a67e274-cc08-458d-a81e-cb5da36d45ad</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;inventory_item_container&quot;)/div[@class=&quot;inventory_details&quot;]/button[@class=&quot;inventory_details_back_button&quot;]</value>
+      <webElementGuid>f178a6b9-996e-40cb-a915-e4f6df31e4d2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='inventory_item_container']/div/button</value>
+      <webElementGuid>54ecad04-7f80-4eb1-84e6-2de04e26b535</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div/button</value>
+      <webElementGuid>94ef8ad3-fb53-4ae4-9661-d9f80f8d2054</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = '&lt;- Back' or . = '&lt;- Back')]</value>
+      <webElementGuid>215090ec-28bd-4ee4-9632-1e1ae9c2c9a0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
