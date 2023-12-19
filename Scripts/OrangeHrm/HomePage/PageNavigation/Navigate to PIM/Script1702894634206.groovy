@@ -17,3 +17,10 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase('OrangeHrm/LoginPage/Login TC 01'), [('username') : 'Admin\t', ('password') : 'hUKwJTbofgPU9eVlw/CnDQ=='], 
+    FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Object Repository/OrangeHRM/HomePage/a_PIM'))
+
+WebUI.verifyElementText(findTestObject('Object Repository/OrangeHRM/HomePage/Page_OrangeHRM/Page_OrangeHRM/h6_PIM'), 'PIM')
+

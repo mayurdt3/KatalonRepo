@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Navigate to Admin</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>251528ad-9569-4e8f-8b73-5f46276ae9c0</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>cb46e0c8-817b-43a6-b4a2-78abe4e371cc</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Admin'</defaultValue>
+      <description></description>
+      <id>cb46e0c8-817b-43a6-b4a2-78abe4e371cc</id>
+      <masked>false</masked>
+      <name>Var1</name>
+   </variable>
+</TestCaseEntity>
