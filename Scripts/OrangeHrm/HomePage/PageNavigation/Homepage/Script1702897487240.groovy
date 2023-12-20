@@ -21,13 +21,13 @@ WebUI.callTestCase(findTestCase('OrangeHrm/LoginPage/Login TC 01'), [('username'
     FailureHandling.STOP_ON_FAILURE)
 
 
- def list = WebUI.findWebElements(findTestObject('Object Repository/OrangeHRM/HomePage/Page_OrangeHRM/Page_OrangeHRM/Job'), 5)
+ def menulist = WebUI.findWebElements(findTestObject('Object Repository/OrangeHRM/HomePage/Page_OrangeHRM/Page_OrangeHRM/Job'), 5)
 
  
  
- System.out.println(list.size())
+ System.out.println(menulist.size())
 
-	for (e in list) {
+	for (e in menulist) {
 	System.out.println(e.getText())
 	if(e.getText().equalsIgnoreCase("PIM")) {
 	e.click()

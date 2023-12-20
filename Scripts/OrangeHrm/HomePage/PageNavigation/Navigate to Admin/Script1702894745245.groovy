@@ -20,9 +20,17 @@ import org.openqa.selenium.Keys as Keys
 WebUI.callTestCase(findTestCase('OrangeHrm/LoginPage/Login TC 01'), [('username') : 'Admin\t', ('password') : 'hUKwJTbofgPU9eVlw/CnDQ=='], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/OrangeHRM/HomePage/a_Admin'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/OrangeHRM/HomePage/Page_OrangeHRM/h6_Admin'), Var1 )
+def menulist = WebUI.findWebElements(findTestObject('Object Repository/OrangeHRM/HomePage/Page_OrangeHRM/Page_OrangeHRM/Job'), 5)
+
+for (e in menulist) {
+	if(e.getText().equalsIgnoreCase("Admin")) {
+	e.click()
+	break
+	}
+}
+
+WebUI.verifyElementText(findTestObject('Object Repository/OrangeHRM/HomePage/h6_Admin'), Var1 )
 
 
 

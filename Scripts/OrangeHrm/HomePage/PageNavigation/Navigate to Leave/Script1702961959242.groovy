@@ -16,19 +16,17 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-WebUI.callTestCase(findTestCase('OrangeHrm/LoginPage/Login TC 01'), [('username') : 'Admin\t', ('password') : 'hUKwJTbofgPU9eVlw/CnDQ=='],
-	FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('OrangeHrm/LoginPage/Login TC 01'), [('username') : 'Admin\t', ('password') : 'hUKwJTbofgPU9eVlw/CnDQ=='], 
+    FailureHandling.STOP_ON_FAILURE)
 
 def menulist = WebUI.findWebElements(findTestObject('Object Repository/OrangeHRM/HomePage/Page_OrangeHRM/Page_OrangeHRM/Job'), 5)
 
-title = "PIM"
-
 for (e in menulist) {
-	if(e.getText().equalsIgnoreCase(title)) {
+	if(e.getText().equalsIgnoreCase("Leave")) {
 	e.click()
 	break
 	}
 }
 
-WebUI.verifyElementText(findTestObject('Object Repository/OrangeHRM/HomePage/h6_Leave'), title )
-
+WebUI.verifyElementText(findTestObject('Object Repository/OrangeHRM/HomePage/h6_Leave'), 'Leave' )

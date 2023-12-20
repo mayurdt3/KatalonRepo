@@ -6,12 +6,11 @@
    <elementGuidId>9355bb5a-8cea-4af0-98d3-31f8a958221d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>h6.oxd-text.oxd-text--h6.oxd-topbar-header-breadcrumb-module</value>
+         <key>XPATH</key>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value></value>
+         <key>CSS</key>
+         <value>h6.oxd-text.oxd-text--h6.oxd-topbar-header-breadcrumb-module</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

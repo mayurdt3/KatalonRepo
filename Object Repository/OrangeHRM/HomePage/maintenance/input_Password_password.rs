@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Buzz</name>
+   <name>input_Password_password</name>
    <tag></tag>
-   <elementGuidId>78a5e187-7b69-417d-8a85-513e39d276d5</elementGuidId>
+   <elementGuidId>cea55acf-6eab-43fd-88bc-1d5335e7863d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='app']/div/div/aside/nav/div[2]/ul/li[12]/a</value>
+         <value>//input[@name='password']</value>
       </entry>
       <entry>
          <key>CSS</key>
+         <value>input[name=&quot;password&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -20,71 +21,71 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
-      <webElementGuid>161e1774-0b61-4784-9258-0f6d7daeb86c</webElementGuid>
+      <value>input</value>
+      <webElementGuid>bdcffd66-7ef2-4841-92c8-f8c06f587453</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>oxd-main-menu-item</value>
-      <webElementGuid>91181603-12ba-436e-a677-eca970172af7</webElementGuid>
+      <value>oxd-input oxd-input--focus</value>
+      <webElementGuid>629ec3ff-46fc-4456-a5f2-7d8c874b6a07</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>href</name>
+      <name>type</name>
       <type>Main</type>
-      <value>/web/index.php/buzz/viewBuzz</value>
-      <webElementGuid>da90c68f-8528-4b77-bb08-3bd83f55680b</webElementGuid>
+      <value>password</value>
+      <webElementGuid>47e57557-8aff-432c-a88c-6ec4e5673ff4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
+      <name>name</name>
       <type>Main</type>
-      <value>Buzz</value>
-      <webElementGuid>1b0a6139-44fe-4120-b5da-b33ae61fd473</webElementGuid>
+      <value>password</value>
+      <webElementGuid>a9cb83b9-cfa8-45e6-99f1-7120bdd46369</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;app&quot;)/div[@class=&quot;oxd-layout&quot;]/div[@class=&quot;oxd-layout-navigation&quot;]/aside[@class=&quot;oxd-sidepanel&quot;]/nav[@class=&quot;oxd-navbar-nav&quot;]/div[@class=&quot;oxd-sidepanel-body&quot;]/ul[@class=&quot;oxd-main-menu&quot;]/li[@class=&quot;oxd-main-menu-item-wrapper&quot;]/a[@class=&quot;oxd-main-menu-item&quot;]</value>
-      <webElementGuid>8fb9df0e-7ae9-440c-8d51-dfebc3d520e6</webElementGuid>
+      <value>id(&quot;app&quot;)/div[@class=&quot;orangehrm-admin-access-container&quot;]/div[@class=&quot;orangehrm-card-container&quot;]/form[@class=&quot;oxd-form&quot;]/div[@class=&quot;oxd-form-row&quot;]/div[@class=&quot;oxd-input-group oxd-input-field-bottom-space&quot;]/div[2]/input[@class=&quot;oxd-input oxd-input--focus&quot;]</value>
+      <webElementGuid>6da6c689-7693-486f-a145-09e5bdd4f35d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
+      <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//div[@id='app']/div/div/aside/nav/div[2]/ul/li[12]/a</value>
-      <webElementGuid>0f881971-e971-498d-9243-014f1e6a1a0d</webElementGuid>
+      <value>//input[@name='password']</value>
+      <webElementGuid>c7f54399-9905-43a1-9a33-5463f92e4b76</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:href</name>
+      <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//a[contains(@href, '/web/index.php/buzz/viewBuzz')]</value>
-      <webElementGuid>2494b7b7-c10e-41e5-9d4c-1d1fa8533501</webElementGuid>
+      <value>//div[@id='app']/div/div/form/div[3]/div/div[2]/input</value>
+      <webElementGuid>2ab83242-68c8-4692-966a-a2c7061e407b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li[12]/a</value>
-      <webElementGuid>056d2f87-24c5-4325-98de-f869983bf788</webElementGuid>
+      <value>//div[3]/div/div[2]/input</value>
+      <webElementGuid>c114a0f2-b716-4514-a93c-e56a94d11442</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@href = '/web/index.php/buzz/viewBuzz' and (text() = 'Buzz' or . = 'Buzz')]</value>
-      <webElementGuid>72831398-d132-4d79-bfb5-1f96e0ca891e</webElementGuid>
+      <value>//input[@type = 'password' and @name = 'password']</value>
+      <webElementGuid>5830fd57-77b1-44a5-b724-45571f9b01bb</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
