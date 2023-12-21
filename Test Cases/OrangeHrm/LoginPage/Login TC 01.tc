@@ -17,6 +17,12 @@
       <value></value>
       <variableId>e4852b6f-fba3-4a75-8b9b-1d16c3bf0afa</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>08434eff-5bde-4e74-ac95-88b10150fe57</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>'Admin\t'</defaultValue>
       <description></description>
@@ -30,5 +36,12 @@
       <id>e4852b6f-fba3-4a75-8b9b-1d16c3bf0afa</id>
       <masked>false</masked>
       <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>'admin123'</defaultValue>
+      <description></description>
+      <id>08434eff-5bde-4e74-ac95-88b10150fe57</id>
+      <masked>false</masked>
+      <name>passwordUE</name>
    </variable>
 </TestCaseEntity>

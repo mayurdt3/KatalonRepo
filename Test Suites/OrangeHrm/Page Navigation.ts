@@ -19,24 +19,11 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>a7980057-eb1a-4de4-a3b4-6143199b8776</guid>
+      <guid>ddcc9c7c-9fea-48b6-a4ad-0c1984d03198</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/OrangeHrm/HomePage/PageNavigation/Homepage</testCaseId>
+      <testCaseId>Test Cases/OrangeHrm/HomePage/PageNavigation/Navigate to PIM</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>b6f691e3-fa89-48b5-9975-41a6796c563b</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/OrangeHrm/HomePage/PageNavigation/Navigate to Admin</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>cb46e0c8-817b-43a6-b4a2-78abe4e371cc</variableId>
-      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>4fa78dfe-7e14-4e89-a4e2-5075a7326fc7</guid>
@@ -53,45 +40,44 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>d7d787d6-b56c-461f-93c0-bab3157101fe</guid>
+      <guid>b6f691e3-fa89-48b5-9975-41a6796c563b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/OrangeHrm/HomePage/PageNavigation/Navigate to Maintence</testCaseId>
+      <testCaseId>Test Cases/OrangeHrm/HomePage/PageNavigation/Navigate to Admin</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>4eecebd2-5dfa-4ae9-9965-4f9d087f086e</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/OrangeHrm/HomePage/PageNavigation/Navigate to My Info</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>6e47a246-1f19-4afe-95e8-d9e708a8ee2a</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/OrangeHrm/HomePage/PageNavigation/Navigate to Performance</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>ddcc9c7c-9fea-48b6-a4ad-0c1984d03198</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/OrangeHrm/HomePage/PageNavigation/Navigate to PIM</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>4af7063f-6b4b-4c38-aecd-5df5c2bbec55</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/OrangeHrm/HomePage/PageNavigation/Navigate to Recruitment</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>cb46e0c8-817b-43a6-b4a2-78abe4e371cc</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>685d0043-7487-4b68-bd69-14e9fbbfc31a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/OrangeHrm/HomePage/PageNavigation/Navigate to Time</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4b25246a-33e2-49f8-9387-a6ae18cf2842</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/OrangeHrm/HomePage/PageNavigation/Navigate to My Info</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4854a3e2-9f24-4049-9fee-2cfbc49fe1f5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/OrangeHrm/HomePage/PageNavigation/Navigate to Performance</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>98b5964c-d733-4d12-8272-654c54a2a82b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/OrangeHrm/HomePage/PageNavigation/Navigate to Recruitment</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
