@@ -26,7 +26,3 @@ WebUI.click(findTestObject('Object Repository/Page_Swag Labs/button_ADD TO CART'
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Swag Labs/span_1'), '1')
 
-@TearDownIfFailed
-def closeAfterFail() {
-	WebUI.closeBrowser()
-}
