@@ -31,4 +31,5 @@ WebUI.click(findTestObject('Object Repository/Page_Swag Labs/inputlogin-button')
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Swag Labs/span_Products'), 'Products')
 
+WebUI.takeScreenshotAsCheckpoint('Homepage')
 

@@ -19,5 +19,9 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('SagLabs/Cart/Navigate to cart After adding the product'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.takeScreenshotAsCheckpoint('before remove product')
+
 WebUI.click(findTestObject('Object Repository/Page_Swag Labs/Page_Swag Labs/button_Remove'))
+
+WebUI.takeScreenshotAsCheckpoint('after remove prduct')
 

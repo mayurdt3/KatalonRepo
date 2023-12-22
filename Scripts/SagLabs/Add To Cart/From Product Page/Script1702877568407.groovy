@@ -19,10 +19,11 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('SagLabs/Login/Login with valid data'), [:], FailureHandling.STOP_ON_FAILURE)
 
-
 WebUI.click(findTestObject('Object Repository/Page_Swag Labs/div_Sauce Labs Onesie'))
 
 WebUI.click(findTestObject('Object Repository/Page_Swag Labs/button_ADD TO CART'))
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Swag Labs/span_1'), '1')
+
+WebUI.takeScreenshotAsCheckpoint('Add to cart from prlduct detail page')
 
