@@ -19,21 +19,13 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('SagLabs/Login/Login with valid data'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.click(findTestObject('Object Repository/Page_Swag Labs/button_Add to cart_1'))
+
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Swag Labs/span_1'), '1')
+
 WebUI.click(findTestObject('Object Repository/Page_Swag Labs/button_ADD TO CART'))
 
-WebUI.click(findTestObject('Object Repository/Page_Swag Labs/a_1'))
+WebUI.verifyElementText(findTestObject('Page_Swag Labs/span_2'), '2')
 
-WebUI.click(findTestObject('Object Repository/Page_Swag Labs/button_Checkout'))
-
-WebUI.click(findTestObject('Object Repository/Page_Swag Labs/div_checkout_info'))
-
-WebUI.setText(findTestObject('Object Repository/Page_Swag Labs/input_firstName'), 'user')
-
-WebUI.setText(findTestObject('Object Repository/Page_Swag Labs/input_lastName'), 'user')
-
-WebUI.setText(findTestObject('Object Repository/Page_Swag Labs/input_postalCode'), '12345')
-
-WebUI.click(findTestObject('Object Repository/Page_Swag Labs/input_continue'))
-
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Swag Labs/span_Checkout Overview'), 'Checkout: Overview')
+WebUI.takeScreenshotAsCheckpoint('Add to cart product product count')
 

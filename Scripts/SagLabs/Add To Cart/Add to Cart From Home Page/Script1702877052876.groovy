@@ -27,5 +27,3 @@ WebUI.click(findTestObject('Object Repository/Page_Swag Labs/button_ADD TO CART'
 
 WebUI.verifyElementText(findTestObject('Page_Swag Labs/span_2'), '2')
 
-WebUI.takeScreenshotAsCheckpoint('Product added to cart from home')
-

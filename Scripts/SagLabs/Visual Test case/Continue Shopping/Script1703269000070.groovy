@@ -17,23 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('SagLabs/Login/Login with valid data'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('SagLabs/Cart/Navigate to cart After adding the product'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Page_Swag Labs/button_ADD TO CART'))
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Swag Labs/Page_Swag Labs/Page_Swag Labs/button_Continue Shopping'), 
+    0)
 
-WebUI.click(findTestObject('Object Repository/Page_Swag Labs/a_1'))
+WebUI.click(findTestObject('Object Repository/Page_Swag Labs/Page_Swag Labs/Page_Swag Labs/button_Continue Shopping'))
 
-WebUI.click(findTestObject('Object Repository/Page_Swag Labs/button_Checkout'))
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Swag Labs/Page_Swag Labs/Page_Swag Labs/span_Products'), 
+    0)
 
-WebUI.click(findTestObject('Object Repository/Page_Swag Labs/div_checkout_info'))
-
-WebUI.setText(findTestObject('Object Repository/Page_Swag Labs/input_firstName'), 'user')
-
-WebUI.setText(findTestObject('Object Repository/Page_Swag Labs/input_lastName'), 'user')
-
-WebUI.setText(findTestObject('Object Repository/Page_Swag Labs/input_postalCode'), '12345')
-
-WebUI.click(findTestObject('Object Repository/Page_Swag Labs/input_continue'))
-
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Swag Labs/span_Checkout Overview'), 'Checkout: Overview')
+WebUI.takeScreenshotAsCheckpoint('continue shopping')
 

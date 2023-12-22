@@ -27,5 +27,3 @@ WebUI.click(findTestObject('Object Repository/Page_Swag Labs/Page_Swag Labs/Page
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Swag Labs/Page_Swag Labs/Page_Swag Labs/span_Products'), 
     0)
 
-WebUI.takeScreenshotAsCheckpoint('continue shopping')
-

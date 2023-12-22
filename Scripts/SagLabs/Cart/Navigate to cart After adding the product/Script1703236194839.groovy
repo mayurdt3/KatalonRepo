@@ -23,5 +23,3 @@ WebUI.callTestCase(findTestCase('SagLabs/Cart/Navigate to cart'), [:], FailureHa
 
 WebUI.verifyElementText(findTestObject('Page_Swag Labs/span_Your Cart'), 'Your Cart')
 
-WebUI.takeScreenshotAsCheckpoint('Naigate to cart after addto cart')
-

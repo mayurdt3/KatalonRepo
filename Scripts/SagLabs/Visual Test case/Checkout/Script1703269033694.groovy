@@ -37,3 +37,5 @@ WebUI.click(findTestObject('Object Repository/Page_Swag Labs/input_continue'))
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Swag Labs/span_Checkout Overview'), 'Checkout: Overview')
 
+WebUI.takeScreenshotAsCheckpoint('Checkout')
+

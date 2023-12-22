@@ -23,5 +23,3 @@ WebUI.takeScreenshotAsCheckpoint('before remove product')
 
 WebUI.click(findTestObject('Object Repository/Page_Swag Labs/Page_Swag Labs/button_Remove'))
 
-WebUI.takeScreenshotAsCheckpoint('after remove prduct')
-
