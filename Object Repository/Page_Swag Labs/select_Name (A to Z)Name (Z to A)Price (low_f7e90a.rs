@@ -4,17 +4,26 @@
    <name>select_Name (A to Z)Name (Z to A)Price (low_f7e90a</name>
    <tag></tag>
    <elementGuidId>e9900b37-2073-482e-abd5-f679990dad3c</elementGuidId>
+   <imagePath></imagePath>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
          <value>//div[@id='header_container']/div[2]/div/span/select</value>
       </entry>
       <entry>
+         <key>IMAGE</key>
+         <value></value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>select.product_sort_container</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Name (A to Z)Name (Z to A)Price (low to high)Price (high to low)' or . = 'Name (A to Z)Name (Z to A)Price (low to high)Price (high to low)')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>IMAGE</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +31,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
-      <webElementGuid>953bd203-43a6-43c1-a7ca-37b9ec4a1239</webElementGuid>
+      <webElementGuid>1dfacce1-adee-40cb-a591-4e10c2854118</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +39,7 @@
       <name>class</name>
       <type>Main</type>
       <value>product_sort_container</value>
-      <webElementGuid>74a91ffc-0939-45c4-9ee3-26830ac7e89f</webElementGuid>
+      <webElementGuid>f02a97ec-4fab-456b-8ef1-e8eb0d1c2366</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +47,7 @@
       <name>data-test</name>
       <type>Main</type>
       <value>product_sort_container</value>
-      <webElementGuid>b158c198-c179-4dfa-ae68-25baa8b2c6de</webElementGuid>
+      <webElementGuid>ffdffae5-187c-4b23-aed2-5fbe6ecc4b25</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +55,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Name (A to Z)Name (Z to A)Price (low to high)Price (high to low)</value>
-      <webElementGuid>ee7de110-7edc-4d08-bc96-d5cabe7ba03b</webElementGuid>
+      <webElementGuid>ea79e987-83c7-490b-85de-ebf6731dc17c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +63,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;header_container&quot;)/div[@class=&quot;header_secondary_container&quot;]/div[@class=&quot;right_component&quot;]/span[@class=&quot;select_container&quot;]/select[@class=&quot;product_sort_container&quot;]</value>
-      <webElementGuid>d4115f43-e9d6-46ee-9eee-0b40645a1c1c</webElementGuid>
+      <webElementGuid>d6800cf7-6a3f-4627-b1d0-f10315f34eda</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +71,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='header_container']/div[2]/div/span/select</value>
-      <webElementGuid>0942ad2d-9dee-4ac8-939d-bb3e46e85ff9</webElementGuid>
+      <webElementGuid>ebe4a796-0521-4c66-bde2-16fb8fc20c24</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +79,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//select</value>
-      <webElementGuid>4c81e9d2-bc56-4d7f-a6da-e6c878964955</webElementGuid>
+      <webElementGuid>63c795ae-f573-4e21-89c5-2244bbd35e69</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +87,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//select[(text() = 'Name (A to Z)Name (Z to A)Price (low to high)Price (high to low)' or . = 'Name (A to Z)Name (Z to A)Price (low to high)Price (high to low)')]</value>
-      <webElementGuid>069aa483-e5bd-44cb-b67d-e2bc2ecfe589</webElementGuid>
+      <webElementGuid>86e2aed5-ae84-4f13-91a8-445b55400cb3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
