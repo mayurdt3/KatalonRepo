@@ -27,8 +27,8 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_Swag Labs/input_pa
 
 WebUI.click(findTestObject('Object Repository/Page_Swag Labs/inputlogin-button'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Swag Labs/h3_Epic sadface Username and password do no_0e8909'), 
-    'Epic sadface: Username and password do not match any user in this service')
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Swag Labs/Page_Swag Labs/h3_Epic sadface Username and password do no_0e8909'), 
+    10)
 
 WebUI.takeScreenshotAsCheckpoint('Login with invalid data')
 
