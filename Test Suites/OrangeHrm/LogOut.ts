@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Home Page</name>
+   <name>LogOut</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,19 +10,12 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>32955426-d6d4-423a-b2ff-1f3fd49f53ca</testSuiteGuid>
+   <testSuiteGuid>e8175d50-63b6-4cb6-975f-bedd0e9563bc</testSuiteGuid>
    <testCaseLink>
-      <guid>46dbc19f-bba9-4455-bc35-89a2b37dc42c</guid>
+      <guid>dde58e22-c072-4f31-89d3-db9faf48ee27</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/OrangeHrm/HomePage/Logout/Logout</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>c93f6d7f-11fe-4102-a58b-c3cb1040cccf</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/OrangeHrm/HomePage/Add New Employee</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
