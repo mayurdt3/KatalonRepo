@@ -106,13 +106,6 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>a9511021-62c8-47eb-a7f1-07362d4e03da</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/OrangeHrm/HomePage/Add New Employee</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
       <guid>d13086b0-d748-498e-8b3d-cb7e6ceca89e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
