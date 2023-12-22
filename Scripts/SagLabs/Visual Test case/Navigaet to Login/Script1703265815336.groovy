@@ -17,7 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('SagLabs/Logout/Verify Logout'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.openBrowser('')
 
-WebUI.takeScreenshotAsCheckpoint('Login Page')
+WebUI.navigateToUrl('https://www.saucedemo.com/')
+
+WebUI.takeScreenshotAsCheckpoint('Navigate to Swag Labs Login')
 

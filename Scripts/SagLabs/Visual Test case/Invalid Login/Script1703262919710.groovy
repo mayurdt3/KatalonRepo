@@ -23,13 +23,12 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('https://www.saucedemo.com/')
 
-WebUI.setText(findTestObject('Object Repository/Page_Swag Labs/input_user-name'), 'standard_user')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Swag Labs/input_password'), 'qcu24s4901FyWDTwXGr6XA==')
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Swag Labs/input_password'), 'qcu24s4901EY+Whz5I1ihQ==')
 
 WebUI.click(findTestObject('Object Repository/Page_Swag Labs/inputlogin-button'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Swag Labs/span_Products'), 'Products')
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Swag Labs/h3_Epic sadface Username and password do no_0e8909'), 
+    'Epic sadface: Username and password do not match any user in this service')
 
-WebUI.takeScreenshotAsCheckpoint('Login Sucessful')
+WebUI.takeScreenshotAsCheckpoint('Login with invalid data')
 

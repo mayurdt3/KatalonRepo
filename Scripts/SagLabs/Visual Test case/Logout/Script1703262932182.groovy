@@ -17,21 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('OrangeHrm/LoginPage/Login TC 01'), [('username') : 'Admin\t', ('password') : 'hUKwJTbofgPU9eVlw/CnDQ=='], 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('SagLabs/Logout/Verify Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 
-def menulist = WebUI.findWebElements(findTestObject('Object Repository/OrangeHRM/HomePage/Page_OrangeHRM/Page_OrangeHRM/Job'), 
-    5)
-
-title = 'My Info'
-
-for (def e : menulist) {
-    if (e.getText().equalsIgnoreCase(title)) {
-        e.click()
-
-        break
-    }
-}
-
-WebUI.verifyElementText(findTestObject('Object Repository/OrangeHRM/HomePage/h6_Leave'), 'PIM')
+WebUI.takeScreenshotAsCheckpoint('Back to Login Page')
 
