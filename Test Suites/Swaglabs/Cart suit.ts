@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Sort Products</name>
+   <name>Cart suit</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,33 +10,40 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>4926a9df-5f32-4b18-9f6c-02418295b14e</testSuiteGuid>
+   <testSuiteGuid>9668f1e1-cec4-4dd1-b9c3-742797496ecb</testSuiteGuid>
    <testCaseLink>
-      <guid>ca8c0ff2-53be-4761-8472-eb7f71ad1626</guid>
+      <guid>6dfd84c1-8755-41d8-9194-32bde1942ddf</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/SagLabs/Product Listing Page/Sort Product list from Name(Z-A)</testCaseId>
+      <testCaseId>Test Cases/SagLabs/Cart/Is Cart Empty</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>6b07ba92-64fa-4c45-b873-6891c8951806</guid>
+      <guid>3fe8ce21-233c-4c7c-a50c-a182d60fd792</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/SagLabs/Product Listing Page/Sort Product list from Name(A-Z)</testCaseId>
+      <testCaseId>Test Cases/SagLabs/Cart/Verify updated cartcount</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>af0b0537-3b93-46cf-82d6-19101b2d060d</guid>
+      <guid>c26fa449-e4ce-445d-9840-bbff7d59119b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/SagLabs/Product Listing Page/Sort Product list from Price(high-low)</testCaseId>
+      <testCaseId>Test Cases/SagLabs/Cart/Navigate to cart After adding the product</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>8fa0dc21-78c4-48f8-8e3e-46d5a00d2185</guid>
+      <guid>b509464d-0249-4a0a-abe5-4cee801e735d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/SagLabs/Product Listing Page/Sort Produt list from Price(low-high)</testCaseId>
+      <testCaseId>Test Cases/SagLabs/Cart/Remove Product from cart</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>83c31bcd-2547-4966-836c-3aff7b1a7664</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SagLabs/Cart/verify continue shopping button</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
