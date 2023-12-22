@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>SwagLabs Regression</name>
+   <name>SwagLabs All Test</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,117 +10,131 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>95b8bb4c-e256-4631-94d4-88ba8234bf17</testSuiteGuid>
+   <testSuiteGuid>a6a060c0-9466-464a-94c3-8e62613daca0</testSuiteGuid>
    <testCaseLink>
-      <guid>24958590-f282-4c72-bb64-6fe0904d85d7</guid>
+      <guid>1e613466-0f0c-4f36-8132-4d2b6857cfc1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/SagLabs/Login/Login with valid data</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>ec84dc5b-b575-4eca-b1ac-7315cd5a2f44</guid>
+      <guid>0c64c50a-ba46-49b8-abbb-aac01faa323c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/SagLabs/Login/login with invalid data</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>7ef4f582-f3e6-4b88-bbbd-220622ff69da</guid>
+      <guid>57642324-c68a-44cb-96b4-a62ffd712073</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/SagLabs/Login/Login with locked user</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>7720654e-5cdb-4d89-b948-34f47730254f</guid>
+      <guid>64c36e17-ece8-49f5-a7b3-2e9d30e5e695</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/SagLabs/Logout/Verify Logout</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>d584b38a-ff21-43d7-bf02-19d96e11c2e6</guid>
+      <guid>83bbd952-8f3e-4acc-b6ce-4706708ad40b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/SagLabs/Product Listing Page/Navigate to product detail page</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>be27a53c-e667-4358-90d1-7b08c115b119</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/SagLabs/Product Listing Page/Sort Product list from Name(A-Z)</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>e3008ed2-c673-49b3-b8e8-5568546b994f</guid>
+      <guid>69c0f0ab-3ba4-4b3f-8a1c-5a64a35aa8e3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/SagLabs/Product Listing Page/Sort Product list from Name(Z-A)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>8b5956d4-2df9-47ee-8067-c246a236d272</guid>
+      <guid>b55b7777-e999-49b5-993d-7e8686643503</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SagLabs/Product Listing Page/Sort Product list from Name(A-Z)</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d39f31f0-8363-4b3f-a7b8-1cf064db279e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/SagLabs/Product Listing Page/Sort Product list from Price(high-low)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>50a0d1f6-9530-4bc8-ba89-a44904fc641e</guid>
+      <guid>ca7cb95a-5abd-4f8d-97d2-046329edbd52</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/SagLabs/Product Listing Page/Sort Produt list from Price(low-high)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>dc17772d-5dbe-47b4-8b27-c91e69081c91</guid>
+      <guid>d022e3fb-8e91-4a97-bec9-6bdae613905b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/SagLabs/Cart/Is Cart Empty</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>4aa4c501-3445-4390-9b2c-80090d6a2287</guid>
+      <guid>03542227-c70c-40c5-ad16-97a0cf29d1c3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/SagLabs/Cart/Navigate to cart After adding the product</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>88620fc8-2a52-4736-8985-b55291e4aab2</guid>
+      <guid>401b981f-1f4e-4441-b708-ba2fd22d69ca</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/SagLabs/Cart/Remove Product from cart</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>2940e466-e826-4ee3-a663-a1f729f647eb</guid>
+      <guid>1cb9ca2e-09e4-41d6-a402-35b8035a5461</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/SagLabs/Cart/verify continue shopping button</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>0fc1c2fb-7e3d-4e8b-a611-95bbb8469aa4</guid>
+      <guid>b9829e5a-b4ea-4d43-ae61-f1f4308cf41b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/SagLabs/Cart/Verify updated cartcount</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>2c9441d0-ba3a-43cd-8bd5-9de184c26a07</guid>
+      <guid>3fde3e21-cfd8-4159-a547-5405af69cbfc</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/SagLabs/Add To Cart/Add to Cart From Home Page</testCaseId>
+      <testCaseId>Test Cases/SagLabs/Checkout/Verify My Info Page</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>d1e2bb5c-9c6a-4e71-8ce9-5e43c3d5e419</guid>
+      <guid>c65e7b9f-101e-4d98-8e50-609cfcdbc684</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SagLabs/Checkout/Navigate to Checkout Page</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>9e921eb9-acb5-47db-8701-018d524d0a02</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/SagLabs/Add To Cart/From Product Page</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>bdf282e0-7417-4742-af7d-6826d2eec40a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SagLabs/Add To Cart/Add to Cart From Home Page</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
