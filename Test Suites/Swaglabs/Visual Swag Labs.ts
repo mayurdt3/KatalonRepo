@@ -15,35 +15,35 @@
       <guid>58737298-693b-4fd1-b50b-6f5b1588be81</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Visual Test case/Invalid Login</testCaseId>
+      <testCaseId>Test Cases/SagLabs/Visual Test case/Invalid Login</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>fa508faf-2d3f-4e1f-97da-8c41cad4d405</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Visual Test case/Login</testCaseId>
+      <testCaseId>Test Cases/SagLabs/Visual Test case/Login</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>a263e75b-e379-4fc6-8c0d-649140580a8d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Visual Test case/Empty Cart</testCaseId>
+      <testCaseId>Test Cases/SagLabs/Visual Test case/Empty Cart</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>40406309-43fa-43b5-afd6-010130d2543a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Visual Test case/Logout</testCaseId>
+      <testCaseId>Test Cases/SagLabs/Visual Test case/Logout</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>e51465b2-cd8b-4150-9c37-55cdfb6f9738</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Visual Test case/Product Listing Page</testCaseId>
+      <testCaseId>Test Cases/SagLabs/Visual Test case/Product Listing Page</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
